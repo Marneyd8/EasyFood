@@ -1,0 +1,65 @@
+<EasyFood>
+    <Categories>
+        <Category>
+            <CategoryName>Catalan</CategoryName>
+            <Color>125</Color>
+        </Category>
+    </Categories>
+    <Units>
+        <Unit>
+            <UnitName>One piece</UnitName>
+            <Abbreviation>un</Abbreviation>
+            <Amount>1</Amount>
+            <BaseUnitName>piece</BaseUnitName>
+        </Unit>
+        <Unit>
+            <UnitName>Gigaliter</UnitName>
+            <Abbreviation>gl</Abbreviation>
+            <Amount>100</Amount>
+            <BaseUnitName>liter</BaseUnitName>
+        </Unit>
+    </Units>
+    <Ingredients>
+        <Ingredient>
+            <IngredientName>Tomato</IngredientName>
+            <NutritionalValue>20</NutritionalValue>
+        </Ingredient>
+        <Ingredient>
+            <IngredientName>Potato</IngredientName>
+            <NutritionalValue>200</NutritionalValue>
+        </Ingredient>
+        <Ingredient>
+            <IngredientName>Avocado</IngredientName>
+            <NutritionalValue>250</NutritionalValue>
+        </Ingredient>
+    </Ingredients>
+    <Recipes>
+        <Recipe>
+            <RecipeName>Gaspacho</RecipeName>
+            <PrepMinutes>10</PrepMinutes>
+            <Portions>3</Portions>
+            <RecipeCategoryName>Catalan</RecipeCategoryName>
+            <Description>Cold soup</Description>
+            <AddedIngredients>
+                <AddedIngredient>
+                    <AiIngredientName>Potato</AiIngredientName>
+                    <AiRecipeName>Gaspacho</AiRecipeName>
+                    <AiUnitName>Gigaliter</AiUnitName>
+                    <Quantity>5</Quantity>
+                </AddedIngredient>
+                <AddedIngredient>
+                    <AiIngredientName>Potato</AiIngredientName>
+                    <AiRecipeName>Gaspacho</AiRecipeName>
+                    <AiUnitName>One piece</AiUnitName>
+                    <Quantity>3</Quantity>
+                </AddedIngredient>
+                <AddedIngredient>
+                    <AiIngredientName>Avocado</AiIngredientName>
+                    <AiRecipeName>Gaspacho</AiRecipeName>
+                    <AiUnitName>One piece</AiUnitName>
+                    <Quantity>1</Quantity>
+                </AddedIngredient>
+            </AddedIngredients>
+        </Recipe>
+    </Recipes>
+</EasyFood>

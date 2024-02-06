@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="cz.muni.fi.pv168.project.GUILayout">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="2492" height="656"/>
+    </constraints>
+    <properties>
+      <background color="-12828863"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="ee6a8" binding="tabbedPanels">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="181" height="401"/>
+          </grid>
+        </constraints>
+        <properties>
+          <toolTipText value=""/>
+        </properties>
+        <border type="none">
+          <color color="-16768961"/>
+        </border>
+        <children/>
+      </tabbedpane>
+      <toolbar id="599c4" binding="toolBarTop">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="181" height="15"/>
+          </grid>
+        </constraints>
+        <properties>
+          <borderPainted value="true"/>
+          <floatable value="false"/>
+          <foreground color="-13524797"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+        </properties>
+        <border type="none" title=""/>
+        <children>
+          <component id="2a683" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="  "/>
+            </properties>
+          </component>
+          <component id="2f8c6" class="javax.swing.JButton" binding="addButton">
+            <constraints/>
+            <properties>
+              <background color="-9458290"/>
+              <borderPainted value="false"/>
+              <focusPainted value="true"/>
+              <foreground color="-16777216"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <maximumSize width="30" height="30"/>
+              <minimumSize width="30" height="30"/>
+              <opaque value="false"/>
+              <text value="Add"/>
+              <toolTipText value="Add new item"/>
+            </properties>
+          </component>
+          <component id="b461d" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="      "/>
+            </properties>
+          </component>
+          <component id="3150f" class="javax.swing.JButton" binding="editButton">
+            <constraints/>
+            <properties>
+              <background color="-1852847"/>
+              <borderPainted value="false"/>
+              <focusPainted value="true"/>
+              <foreground color="-16777216"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <maximumSize width="30" height="30"/>
+              <minimumSize width="30" height="30"/>
+              <opaque value="false"/>
+              <selected value="false"/>
+              <text value="Edit"/>
+              <toolTipText value="Edit existing item"/>
+            </properties>
+          </component>
+          <component id="d8c62" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="      "/>
+            </properties>
+          </component>
+          <component id="21398" class="javax.swing.JButton" binding="deleteButton">
+            <constraints/>
+            <properties>
+              <background color="-5033936"/>
+              <borderPainted value="false"/>
+              <focusPainted value="true"/>
+              <foreground color="-16777216"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <maximumSize width="30" height="30"/>
+              <minimumSize width="30" height="30"/>
+              <opaque value="false"/>
+              <text value="Delete"/>
+              <toolTipText value="Delete existing item"/>
+            </properties>
+          </component>
+          <component id="aa7ff" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="      "/>
+            </properties>
+          </component>
+          <component id="dc44d" class="javax.swing.JButton" binding="showRecipeButton">
+            <constraints/>
+            <properties>
+              <background color="-6642764"/>
+              <borderPainted value="false"/>
+              <focusPainted value="true"/>
+              <foreground color="-16777216"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <maximumSize width="30" height="30"/>
+              <minimumSize width="30" height="30"/>
+              <opaque value="false"/>
+              <text value="Show Recipe"/>
+              <toolTipText value="Show Details about the item"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <toolbar id="274b2">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8fdd6" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="4"/>
+              <text value="Global Statistic: 1"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+    </children>
+  </grid>
+</form>
